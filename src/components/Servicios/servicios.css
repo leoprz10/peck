@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1150px;
+    height: 800px;
     width: 90%;
     margin: 0 auto ;
     padding: 40px 0;
@@ -33,10 +33,6 @@
 .subti{
     color: white;
     margin: 10px 15px;
-}
-
-.texto{
-    margin-bottom: 30px;
 }
 
 .lista{

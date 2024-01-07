@@ -6,8 +6,7 @@ import { Prueba } from '../Prueba'
 const Servicios = () => {
     return(
         <div className='contServ'>
-            <h1>SERVICIOS</h1>
-            <p className='texto'>Nuestra área de desarrollo cubre fundamentalmente proyectos estructurales de Ingeniería Civil. Partiendo del análisis integral y pormenorizado de cada caso, tanto a nivel conceptual como a nivel de detalle ejecutivo, buscamos ofrecer la mejor solución al cliente atendiendo la funcionalidad del proyecto.</p>
+            
             <Prueba/>
             <div className='servi'>
                 <div className='serv'>
