@@ -1,0 +1,48 @@
+.contServ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1150px;
+    width: 90%;
+    margin: 0 auto ;
+    padding: 40px 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255,255,255,0.55)),
+    url(../../assets/Fondo.png) no-repeat center ;
+    background-size: cover ;  
+
+}
+
+.contServ h1{
+    margin-bottom: 15px;
+}
+
+.servi{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+.serv{
+    background-color: #B22B31;
+    /*margin-left: 25px;*/
+    width: 285px;
+    border-radius: 15px;
+}
+
+.subti{
+    color: white;
+    margin: 10px 15px;
+}
+
+.texto{
+    margin-bottom: 30px;
+}
+
+.lista{
+    color: white;
+}
+
+.lista li{
+    margin-bottom: 4px;
+}

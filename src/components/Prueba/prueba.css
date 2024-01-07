@@ -1,0 +1,8 @@
+.imgCarousel{
+    width: 60%;}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border: solid 2px black;
+background-color: black;
+border-radius: 100%;
+}
