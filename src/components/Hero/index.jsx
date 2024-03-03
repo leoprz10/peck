@@ -4,11 +4,13 @@ import fondo from '../../assets/Fondo.png'
 import peck from '../../assets/2.png'
 import { motion } from 'framer-motion'
 
+
 const Hero = () => {
   
     return( 
         <div className='contHero'>
             <div className='contTitulo'>
+            
                 <img src={peck} alt="" className='img2'/> 
                 <motion.h1
                 initial={{ opacity: 0 }}
@@ -22,6 +24,7 @@ const Hero = () => {
                  animate={{ opacity: 1}}
                  transition={{ duration: 5 }}
                 >Máxima atención a los detalles, desde el boceto a la construcción final.</motion.h2>
+                
                 <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

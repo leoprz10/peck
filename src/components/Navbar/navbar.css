@@ -1,27 +1,18 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
 .contMenu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    
+    
 }
-.contMenu img{
-    width: 40px;
-    background-color: white;
-    border-radius: 50%;
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    /* font y tamaño despues*/
+}
     
-    }
-    nav a {
-        margin-left: 15px;
-        text-decoration: none;
-        cursor: pointer;
-        color: white;
-        /* font y tamaño despues*/
-    }
     
-    .contRedes i{
-        margin-left: 15px;
-        cursor: pointer;
-        color: white;
-    }

@@ -1,12 +1,17 @@
 .contEquipo{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
 
 .contCaract{
     display: flex;
+    flex-direction: column;
     justify-content:space-between;
+    width: 280px;
+    
+
 }
 
 .fotos{
@@ -14,38 +19,40 @@
     height:200px;
     border: 3px #696A6A solid;
     border-radius: 50%;
-    margin: 20px 80px;
+    margin: 5px auto;
 }
 
 .nombre{
-    width: 725px;
-    margin: 20px 0px 20px 80px
+    width: 278px;
+    margin: 20px 0px ;
+    
 }
 
 .nombre h3{
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: white;
-    padding: 5px 0 5px 15px;
-    margin-bottom: 20px;
+    padding: 5px 0 5px 5px;
+    margin-bottom: 5px;
     background-color: #b22c31;
-    font-size: 23px;
+    font-size: 20px;
     justify-content: center;
 }
 .inge{
-  color: #b22c31;
-  padding-bottom: 10px; 
+  color: #b22c31; 
   font-size: 20px; 
 }
 .nombre p{
-    padding-bottom: 10px;
+    padding:2px;
+    margin: 4px;
 }
 
 .roles{
 padding-top: 15px;
+font-size: 15px;
 }
 
-
-.lista2 li{
-    padding-bottom: 10px;
+.especialidad{
+    font-size: 15px;
 }

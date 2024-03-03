@@ -13,8 +13,8 @@ const Equipo = () => {
                 <div className='nombre'>
                     <h3><strong>NICOLÁS ASCAINO</strong> </h3>
                     <p className='inge'> <strong>Ingeniero Civil</strong> </p>
-                    <p><strong>Esp. en Ingeniería Estructural y Sismorresistente</strong> </p>
-                    <p>Inesa Tech - Civil Engineering School & Consulting - Barcelona</p>
+                    <p className='especialidad'><strong>Esp. en Ingeniería Estructural y Sismorresistente</strong> </p>
+                    <p className='especialidad'>Inesa Tech - Civil Engineering School & Consulting - Barcelona</p>
                     <p className='roles'><strong>ROLES:</strong> </p>
                     <ul>
                         <li>Gestión integrada de proyectos.</li>
